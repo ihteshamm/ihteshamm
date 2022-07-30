@@ -1,0 +1,21 @@
+First of All Download Node Js.
+create a folder e.g "react_app".
+
+Open in Visual Studio Code
+Open Terminal.
+Create two folder in "react_app".
+  named folders "client" & "server".
+Open client folder in terminal using command "cd client" 
+Open server folder in terminal using command "cd server"
+
+Now in client terminal
+    1. run command "npm install -g create-react-app"
+    2. run command " npx create-react-app ./ "
+
+Now in servre terminal
+    1. create a file "index.js"
+    2. run command "npm init -y" to create Packege.json file.
+    Now install dependencies:
+      1. run command "npm install body-parser cros express nodemon"
+    import all these dependencies in "index.js" file
+    
