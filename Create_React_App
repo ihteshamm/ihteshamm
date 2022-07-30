@@ -15,7 +15,9 @@ Now in client terminal
 Now in servre terminal
     1. create a file "index.js"
     2. run command "npm init -y" to create Packege.json file.
-    Now install dependencies:
-      1. run command "npm install body-parser cros express nodemon"
-    import all these dependencies in "index.js" file
-    
+    3.Now install dependencies:
+        1. run command "npm install body-parser cros express nodemon mongoose"
+    4.import all these dependencies in "index.js" file
+    5.open Packege.json file:
+        1.after ("main": "index.js",) add a line ("type": "module",) to use imports directly.
+        2. Change ("test": "echo \"Error: no test specified\" && exit 1") with ("start": "nodemon index.js")
