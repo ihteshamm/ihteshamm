@@ -1,0 +1,17 @@
+Create a routes folder for setting all the routes.
+Create a user.js file here for setting up routers
+  
+After setting up router file
+ create a middlewire using express to connect routes to your application. 
+      app.use('/User', Users);
+
+For a Proper Folders structure for Server
+  Create a folder named "Controllers"
+    all the handlers for routes will be here.
+    
+  Create a folder named "models"
+  
+  
+  routes folder has all router
+  Controllers folder has all the handler (methods) for routers
+  models folder have all the schemas used for database.
