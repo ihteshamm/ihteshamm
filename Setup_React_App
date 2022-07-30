@@ -45,5 +45,27 @@ Now in client folder we need to install all below dependencies we will use in ou
                 "redux": "^4.0.5",
                 "redux-thunk": "^2.3.0"
                 },
-                
+As our Client's src has many unnecessary things so delete it and add it again
+Inside src folder
+  1. Create "index.js" file
+      Add following sample code:
+        
+        import React from 'react';
+        import ReactDOM from 'react-dom';
+        import App from "./app"
+        ReactDOM.render(<App />, document.getElementById('root'));
+        
+  2. Create "app.js" file
+      Add following sample code:
+      
+      import React from 'react';
+      const App = () => {
+          return(
+              <div>
+                  <h1>My Setup</h1>
+              </div>
+          );
+      }
+      export default App;
+        
 that's it.
